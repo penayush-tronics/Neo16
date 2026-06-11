@@ -77,6 +77,8 @@ Recently, I had an idea for a personal project, and I needed these addressable L
 
 This BOM is for 1 panel, except for the PCB as it has minimum quantity of 5.
 
+This same BOM is available in [Neo16BOM.csv](Neo16 BOM.csv)
+
 | Sl No. | Component Description | Qty | Price (INR) | Ext Price (INR) | Link |
 | :---: | :--- | :---: | :---: | :---: | :--- |
 | **1** | WS2812B SMD2020 (Neopixel) | 16 | 7.65 | 122.40 | [Quartz Components](https://quartzcomponents.com/products/ws2812b-smd2020-addressable-rgb-pixel-led-smd-package?variant=45110136668394) |
