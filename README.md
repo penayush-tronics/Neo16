@@ -69,7 +69,7 @@ All PCB Gerbers of all sizes available in [PCB folder](PCB), [Gerbers directory]
 
 # Why I made this board
 
-Recently, I had an idea for a personal project, and I needed these addressable LEDs for that project. So, I requried small panels for perosnal use as well as testing purposes. Yet I was unable to find a suitable 4x4 matrix for my purposes, and other alternatives were bigger and way too expensive. So I chose to make one myself; not just for myself but, also for anyone else looking for a small 4x4 matrix of these addressable LEDs (especially the 2mm version).
+Recently, I had an idea for a personal project, and I needed these addressable LEDs for that project. So, I requried small panels for personal use as well as for testing purposes. Yet, I was unable to find a suitable 4x4 matrix for my purposes, and other alternatives were bigger and way too expensive. So, I chose to make one myself; not just for myself but, also for anyone else looking for a small 4x4 matrix of these addressable LEDs (especially the 2mm version).
 
 
 
