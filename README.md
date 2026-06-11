@@ -12,7 +12,7 @@ Here is a 3D labelled diagram of the panel:
 
 On the top right corner, there are 4 headers. They are voltage in (VIN), data in (DIN), ground (GND), and data out (DOUT), in that order from left to right.
 
-Connect power to the VIN and GND pins accordingly; it take can take 3.3V or 5V, but make sure your DIN pin input from the microcontroller/dev board matches this voltage (for example: VIN-5V, DIN-5V). Connect DIN to any one digital pin on the microcontroller/dev board. And that's about it for the wiring; it is really simple to hook up. 
+Connect power to the VIN and GND pins accordingly; it can take 3.3V or 5V, but make sure your DIN pin input from the microcontroller/dev board matches this voltage (for example: VIN-5V, DIN-5V). Connect DIN to any one digital pin on the microcontroller/dev board. And that's about it for the wiring; it is really simple to hook up. 
 
 For connecting many panels in series, setup the first panel as mentioned above. Then connect the subsequent panels to power accordingly. Then, use a jumper or a wire to connect the DOUT pin on the main, first panel (which is connected to the microcontroller) to the DIN pin on the next panel. Continue this chain of DOUT to DIN for as many times as needed (do not worry about limits, as at this scale the limits are very far away.)
 
