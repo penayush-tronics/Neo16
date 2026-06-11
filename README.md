@@ -1,7 +1,7 @@
 # Neo16
 ![alt text](Assets/Neo16_Cover_Image.png)
 
-A 4x4 matrix panel of 16 addressable LEDs, which can be used to display small graphics, animations, or keyboard characters. These addressable LEDs (also refered to as NeoPixels) are RGB and so can take more than one colour. These panels can also be 'daisy-chained' together, so that many panels can be used at once. The biggest feature is how many addressable LEDs' colours can be assigned by just using one pin from a microcontroller/dev board. There are multiple sizes available. 
+A 4x4 matrix panel of 16 addressable LEDs, which can be used to display small graphics, animations, or keyboard characters. These addressable LEDs (also refered to as NeoPixels) are RGB and so can take more than one colour. These panels can also be 'daisy-chained' together, so that many panels can be used at once. The biggest feature is how it only needs one data pin from a microcontroller/dev board to start displaying. There are multiple sizes available. 
 
 
 # How to use the Neo16
