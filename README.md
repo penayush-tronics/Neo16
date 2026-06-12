@@ -81,18 +81,21 @@ This same BOM is available in [Neo16BOM.csv](Neo16 BOM.csv)
 
 | Sl No. | Component Description | Qty | Price (INR) | Ext Price (INR) | Link |
 | :---: | :--- | :---: | :---: | :---: | :--- |
-| **1** | WS2812B SMD2020 (Neopixel) | 16 | 7.65 | 122.40 | [Quartz Components](https://quartzcomponents.com/products/ws2812b-smd2020-addressable-rgb-pixel-led-smd-package?variant=45110136668394) |
-| **2** | 1000nF 50V 0805 X7R SMD Capacitor (Pack of 5 Pieces) | 4 | 13.50 | 60.00 | [Quartz Components](https://quartzcomponents.com/products/1uf-1000nf-50v-0805-x7r-smd-capacitor-pack-of-5-pieces?variant=43526976504042) |
-| **3** | 470 $\Omega$ 5% SMD Resistor 0805 (Pack of 20 Pieces) | 1 | 8.00 | 8.00 | [Quartz Components](https://quartzcomponents.com/products/470ohm-470e-5-smd-resistor-0805-pack-of-20-pieces?variant=43515854749930) |
-| **4** | TLJA107M006R0800 100uF 6.3V CASE-A-3216-18(mm) Tantalum Capacitors ROHS (for 2mm small size) | 1 | 25.00 | 25.00 | [Robu.in](https://robu.in/product/tlja107m006r0800-kyocera-avx-100uf-6-3v-800m%cf%89100khz-%c2%b120-case-a-3216-18mm-tantalum-capacitors-rohs/) |
-| **5** | UUD0J101MCL1GS 100uF 6.3V SMD, D6.3xL5.8mm Aluminum Electrolytic Capacitors - SMD ROHS (for 5mm large size) | 1 | 31.00 | 31.00 | [Robu.in](https://robu.in/product/uud0j101mcl1gs-nichicon-100uf-6-3v-115ma120hz-%c2%b120-smdd6-3xl5-8mm-aluminum-electrolytic-capacitors-smd-rohs/) |
-| **6** | PCB Fabrication | 5 | 159.80 | 943 (799 + 18% tax) | [Lion Circuits](https://www.lioncircuits.com/) |
-| **7** | 4-pin Header (optional) | 1 | 2.00 | 2.00 | [Robu.in](https://robu.in/product/hb-ph3-25414pb2gop-hanbo-gold-250v-3a-direct-insert-2-54mm-4p-6mm-40%e2%84%83105%e2%84%83-3mm-2-54mm-brass-black-single-row-1x4p-2-54mm-pluginp2-54mm-pin-headers-rohs/) |
+| **1** | WS2812B SMD2020 Addressable RGB LED (for 2mm large size) | 16 | 7.65 | 122.40 | [Quartz Components](https://quartzcomponents.com/products/ws2812b-smd2020-addressable-rgb-pixel-led-smd-package?variant=45110136668394) |
+| **2** | WS2812B SMD5050 Addressable RGB LED (for 5mm large size) | 16 | 3.60 | 57.60 | [Quartz Components](https://quartzcomponents.com/products/ws2812b-smd5050-addressable-rgb-led-neopixel-led?pr_prod_strat=jac&pr_rec_id=f8f2799bf&pr_rec_pid=8521263513834&pr_ref_pid=8521726165226&pr_seq=uniform) |
+| **3** | 1000nF 50V 0805 X7R SMD Capacitor (Pack of 5 Pieces) | 4 | 13.50 | 60.00 | [Quartz Components](https://quartzcomponents.com/products/1uf-1000nf-50v-0805-x7r-smd-capacitor-pack-of-5-pieces?variant=43526976504042) |
+| **4** | 470 $\Omega$ 5% SMD Resistor 0805 (Pack of 20 Pieces) | 1 | 8.00 | 8.00 | [Quartz Components](https://quartzcomponents.com/products/470ohm-470e-5-smd-resistor-0805-pack-of-20-pieces?variant=43515854749930) |
+| **5** | TLJA107M006R0800 100uF 6.3V CASE-A-3216-18(mm) Tantalum Capacitors ROHS (for 2mm small size) | 1 | 25.00 | 25.00 | [Robu.in](https://robu.in/product/tlja107m006r0800-kyocera-avx-100uf-6-3v-800m%cf%89100khz-%c2%b120-case-a-3216-18mm-tantalum-capacitors-rohs/) |
+| **6** | UUD0J101MCL1GS 100uF 6.3V SMD, D6.3xL5.8mm Aluminum Electrolytic Capacitors - SMD ROHS (for 5mm large size) | 1 | 31.00 | 31.00 | [Robu.in](https://robu.in/product/uud0j101mcl1gs-nichicon-100uf-6-3v-115ma120hz-%c2%b120-smdd6-3xl5-8mm-aluminum-electrolytic-capacitors-smd-rohs/) |
+| **7** | PCB Fabrication | 5 | 159.80 | 943 (799 + 18% tax) | [Lion Circuits](https://www.lioncircuits.com/) |
+| **8** | 4-pin Header (optional) | 1 | 2.00 | 2.00 | [Robu.in](https://robu.in/product/hb-ph3-25414pb2gop-hanbo-gold-250v-3a-direct-insert-2-54mm-4p-6mm-40%e2%84%83105%e2%84%83-3mm-2-54mm-brass-black-single-row-1x4p-2-54mm-pluginp2-54mm-pin-headers-rohs/) |
 
-Total per board cost varies from size to size, but maximum cost is- 412 INR (223.4 INR for components, 188.6 INR for PCB)
-   412INR ~ $4.30 USD
+Total per board cost varies from size to size:
+  
+  For the **small 2mm size**: 217.4 INR for components + 188.6 INR for PCB -> **406 INR   ~ $4.30 USD**
+  
+  For the **large 5mm size**: 158.6 INR for components + 188.6 INR for PCB -> **347.2 INR ~ $3.65 USD**
     
-
 
 
 
