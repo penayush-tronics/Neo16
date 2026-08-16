@@ -18,7 +18,7 @@ For connecting many panels in series, setup the first panel as mentioned above. 
 
 ## Programming
 ### Usign Neo16 Programmer website: 
-The Neo16 comes with a programmer website where you can choose colours, set brightness of the LEDs, and make patterns on a digital copy of the 4x4 matrix of LED, and convert it into Arduino Code. Here is the interface: 
+The Neo16 comes with a [programmer website](https://penayush-tronics.github.io/Neo16/) where you can choose colours, set brightness of the LEDs, and make patterns on a digital copy of the 4x4 matrix of LED, and convert it into Arduino Code. Here is the interface: 
 ![alt text](Assets/image.png) 
 
 In the center is the matrix. On the top there are settings such as colour and brightness. You can also choose how many boards are daisy-chained together and program them at once. 
@@ -31,7 +31,7 @@ Click Generate to generate the code. Copy it into Arduino IDE, upload and see it
 
 ### Programming by yourself
  When programming for this panel, keep in mind the LED matrix is in a specific order. The first LED is the top left corner, and then it continues down the column as 2,3,4. The 5th led then is the adjacent LED in the next column, and then 6,7,8 is up the column. Then it continues, 'snaking' up and down each column. If this is confusing, just remember the order is like how you write the letter ' W '.
- 
+
 # What are Addressable LEDs?
   
   Addressable LEDs are like those smart LED bulbs at home, which have RGB colours. These LEDs are much smaller and usually for multi-colour pixel displays. They are called 'addressable' as you can assign each LED's colour individually, so each pixel can be a seperate colour if needed. The coolest feature is how the data pins of these LEDs can be connected in series, and then still each LED is individually addressable. If you want to know about how this works in detail, you can learn about it [here](https://www.youtube.com/watch?v=2tTsV290nTo).
