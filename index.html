@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neo16 Programmer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app-container">
+    <h1>Neo16 Programmer</h1>
+
+    <div class="controls-bar">
+      <div class="control-group">
+        <label for="colorPicker">Color:</label>
+        <input type="color" id="colorPicker" value="#ff0000">
+      </div>
+
+      <div class="control-group">
+        <label for="brightness">Brightness (<span id="brightVal">40</span>):</label>
+        <input type="range" id="brightness" min="0" max="255" value="40" oninput="updateBrightnessLabel(this.value)">
+      </div>
+
+      <div class="control-group">
+        <label for="boardCount">Chained Boards:</label>
+        <select id="boardCount" onchange="changeBoardCount()">
+          <option value="1">1 Board (16 LEDs)</option>
+          <option value="2">2 Boards (32 LEDs)</option>
+          <option value="3">3 Boards (48 LEDs)</option>
+          <option value="4">4 Boards (64 LEDs)</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Hardcoded 4x4 Table mapped to PCB Serpentine Layout -->
+    <div id="boardsContainer" class="boards-container">
+      <div class="board-wrapper">
+        <div class="board-title">Board 1 (LEDs 0-15)</div>
+        <table class="matrix-table">
+          <tr>
+            <td><button type="button" class="cell" id="cell-0" onclick="paintCell(0)" onmouseenter="paintCellHover(0)"></button></td>
+            <td><button type="button" class="cell" id="cell-7" onclick="paintCell(7)" onmouseenter="paintCellHover(7)"></button></td>
+            <td><button type="button" class="cell" id="cell-8" onclick="paintCell(8)" onmouseenter="paintCellHover(8)"></button></td>
+            <td><button type="button" class="cell" id="cell-15" onclick="paintCell(15)" onmouseenter="paintCellHover(15)"></button></td>
+          </tr>
+          <tr>
+            <td><button type="button" class="cell" id="cell-1" onclick="paintCell(1)" onmouseenter="paintCellHover(1)"></button></td>
+            <td><button type="button" class="cell" id="cell-6" onclick="paintCell(6)" onmouseenter="paintCellHover(6)"></button></td>
+            <td><button type="button" class="cell" id="cell-9" onclick="paintCell(9)" onmouseenter="paintCellHover(9)"></button></td>
+            <td><button type="button" class="cell" id="cell-14" onclick="paintCell(14)" onmouseenter="paintCellHover(14)"></button></td>
+          </tr>
+          <tr>
+            <td><button type="button" class="cell" id="cell-2" onclick="paintCell(2)" onmouseenter="paintCellHover(2)"></button></td>
+            <td><button type="button" class="cell" id="cell-5" onclick="paintCell(5)" onmouseenter="paintCellHover(5)"></button></td>
+            <td><button type="button" class="cell" id="cell-10" onclick="paintCell(10)" onmouseenter="paintCellHover(10)"></button></td>
+            <td><button type="button" class="cell" id="cell-13" onclick="paintCell(13)" onmouseenter="paintCellHover(13)"></button></td>
+          </tr>
+          <tr>
+            <td><button type="button" class="cell" id="cell-3" onclick="paintCell(3)" onmouseenter="paintCellHover(3)"></button></td>
+            <td><button type="button" class="cell" id="cell-4" onclick="paintCell(4)" onmouseenter="paintCellHover(4)"></button></td>
+            <td><button type="button" class="cell" id="cell-11" onclick="paintCell(11)" onmouseenter="paintCellHover(11)"></button></td>
+            <td><button type="button" class="cell" id="cell-12" onclick="paintCell(12)" onmouseenter="paintCellHover(12)"></button></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="button-group">
+      <button class="btn primary" onclick="generateCode()">Generate Code</button>
+      <button class="btn danger" onclick="clearMatrix()">Clear</button>
+    </div>
+
+    <textarea id="codeOutput" readonly placeholder="Your generated Arduino code will appear here..."></textarea>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
