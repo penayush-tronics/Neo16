@@ -85,7 +85,7 @@ All PCB Gerbers of all sizes available in [PCB folder](PCB), [Gerbers directory]
 
 # Video Demo
 
-<video src="Assets/neo16_demo.mp4" width="50%" controls></video>
+https://github.com/penayush-tronics/Neo16/blob/4a65232448743677c47427e912276eae63ff9889/Assets/neo16_demo.mp4
 
 # Why I made this board
 
