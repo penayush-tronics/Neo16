@@ -19,13 +19,15 @@ For connecting many panels in series, setup the first panel as mentioned above. 
 ## Programming
 ### Usign Neo16 Programmer website: 
 The Neo16 comes with a [programmer website](https://penayush-tronics.github.io/Neo16/) where you can choose colours, set brightness of the LEDs, and make patterns on a digital copy of the 4x4 matrix of LED, and convert it into Arduino Code. Here is the interface: 
-![alt text](Assets/image.png) 
+![alt text](Assets/Programmer_Picture.png) 
 
 In the center is the matrix. On the top there are settings such as colour and brightness. You can also choose how many boards are daisy-chained together and program them at once. 
 
 To select patterns, click on the cells of the matrix which you want to turn on. 
 
 Click Generate to generate the code. Copy it into Arduino IDE, upload and see it on the Neo16!
+
+#### An example sketch for arduino IDE along with an arduino board can be found [here](Neo16_Example)
 
 **NOTE: This code uses the Adafruit_Neopixel library, and so it needs to be installed in your IDE. Also, this uses digital pin 9 on arduino for Data IN, but you can change this.**
 
